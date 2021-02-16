@@ -2,7 +2,7 @@ body {
   /*background-color: darkgreen;*/
   font-family: Roboto;
   color: white;
-  background-image: url("https://meerpup.github.io/images/bg.png");
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: left;
