@@ -1,7 +1,13 @@
 body {
-  background-color: darkgreen;
-  font-family: verdana;
+  /*background-color: darkgreen;*/
+  font-family: Roboto;
   color: white;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  padding-left: 18em;
+  padding-right: 18em;
 }
 .centered {
   text-align: center;
@@ -12,19 +18,19 @@ p {
 li {
   font-size: 16px;
 }
-a:link {
+a.textLink:link{
   font-size: 20px;
   color: rgb(0,100,255);
 }
-a:visited {
+a.textLink:visited {
   font-size: 20px;
   color: rgb(255,0,255);
 }
-a:hover {
+a.textLink:hover {
   font-size: 20px;
   color: rgb(0,255,255);
 }
-a:active {
+a.textLink:active {
   font-size: 20px;
   color: rgb(0,255,0);
 }
@@ -47,4 +53,49 @@ a:active {
 
 .btn-group .button:hover {
   background-color: #3e8e41;
+}
+.pageRoot {
+  margin: 0 auto; 
+  min-width: 850px; 
+  background-color: darkgreen; 
+  box-shadow: 0px 0px 20px #CCCCCC;
+  border: 0px solid #808080;
+  /* Use border-spacing instead of border-collapse, otherwise IE doesn't show the shadow */
+  border-spacing:0;
+}
+.content {
+  padding: 18px;
+  padding-top: 10px; 
+  text-align: left; 
+  text-indent: 0px; 
+  margin: 10px;
+}
+.footer {
+  font-size:small; 
+  text-align: right;  
+  background-color: #11055C; 
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.footerIcon {
+}
+.footerIcon IMG {
+  margin-bottom: -0.3em;
+  margin-right: 0.7em;
+  width: 1.2em;
+  height: 1.2em;
+}
+a.footerLink:link{
+  color: rgb(0,100,255);
+}
+a.footerLink:visited {
+  color: rgb(255,0,255);
+}
+a.footerLink:hover {
+  color: rgb(0,255,255);
+}
+a.footerLink:active {
+  color: rgb(0,255,0);
 }
