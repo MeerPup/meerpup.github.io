@@ -1,6 +1,6 @@
-# meerpup.github.io
+# The Official MeerPup Website
 
-## Overview
+### Overview
 This is the official website for the youtube channel MeerPup.
 This was not fan made.
 You can check out my channel [here](https://meerpup.github.io/channel)
